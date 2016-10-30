@@ -3,8 +3,8 @@ import urllib2
 from BeautifulSoup import BeautifulSoup
 import os
 
-directory1 = "C:\Users\osamahal-ghammari\PycharmProjects\Normshield\Verbose_DB"# set your desired directory
-directory2 = "C:\Users\osamahal-ghammari\PycharmProjects\Normshield\All_Blacklist_domains_DB"# set your desired directory
+directory1 = "C:\Users"# set your desired directory
+directory2 = "C:\Users"# set your desired directory
 
 
 def get_whois_domain(url, name):
